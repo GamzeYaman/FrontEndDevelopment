@@ -1,0 +1,38 @@
+
+@media screen and (max-width:750px) {
+    
+.menu-part{
+    margin-left: 5.5rem !important;
+}
+
+.picture{
+    width: 100%;
+}
+
+.section-image{
+    width: 390px;
+    margin-left: 11px;
+}
+
+.section-info{
+    font-size: 12px;
+}
+
+.footer-item{
+    width: 100%;
+}
+}
+
+@media screen and (max-width:1024px) {
+    .menu-part{
+        margin-left: 18rem;
+    }
+    .picture{
+        width: 100%;
+    }
+
+    .footer-item{
+        width: 100%;
+    }
+
+}
