@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 750px){
+    .header-container {
+        margin-left: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .header-container {
+        margin-left: 0rem;
+    }
+
+    .search{
+        margin-left: 7px;
+    }
+
+    .footer-list{
+        padding: 8px;
+        font-size: 8px;
+    }
+}
+
