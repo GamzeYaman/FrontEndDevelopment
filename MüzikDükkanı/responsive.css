@@ -1,0 +1,24 @@
+
+@media screen and (max-width:768px) {
+    
+    .menu-item{
+        padding: 5px;
+    }
+    .about-button{
+        margin-left: 9rem;
+    }
+
+    /*Products*/
+    .col-4{
+        flex:none !important;
+        max-width: none !important;
+    }
+
+    
+    }
+    
+    @media screen and (max-width:1024px) {
+     
+    
+    }
+    

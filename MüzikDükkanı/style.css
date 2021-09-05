@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    color: #000;
+    background-color: #e9ecef !important;
+}
+a{
+    text-decoration: none;
+    color: #000; 
+}
+
+a:hover{
+    text-decoration: none !important;
+    color : #000 !important;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 0rem !important;
+}
+
+/* HEADER PART */
+nav{
+    background-color: #333842;
+}
+
+.menu-item{
+    float: left;
+    padding: 10px;
+}
+
+/*SECTION PART*/
+
+
+
+.home-page-title{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    color: #b81623
+}
+
+.home-page-text{
+    text-align: center;
+    font-size: 17px;
+}
+
+.home-page-alt-title{
+    text-align: center;
+    color: #c59819;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.home-page-products{
+    text-align: center;
+}
+
+.about-button{
+    color: #fff;
+    margin-left: 44rem;
+    margin-top: 40px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: #333842;
+}
+
+
+/*PRODUCT PAGE*/
+
+.product-info{
+    border: 2px solid #333842;
+    background-color: #fff;
+}
+.product-img{
+    width: 100%;
+    height: 295px;
+}
+
+.p-img{
+    border: 2px solid #333842;
+}
+
+.product-title{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #8f2021;
+}
+
+.product-row{
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 55px;
+    color: #b11821;
+}
+
+/*ABOUT US*/
+
+.about-text{
+    padding-top: 10px;
+}
+
+.about-alt-title{
+    padding-top: 10px;
+    color: #b27d80;
+}
